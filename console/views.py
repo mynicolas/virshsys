@@ -9,4 +9,4 @@ from django.utils.translation import gettext as _
 
 
 def test(request):
-    return render_to_response('test.html', {'language': _('language')})
+    return render_to_response('test.html')

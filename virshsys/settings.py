@@ -109,6 +109,11 @@ TEMPLATE_DIRS = (
         ).replace('\\', '/'),
 )
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-    'django.core.context_processors.i18n',
+
+STATIC_ROOT = '/static/'
+
+MEDIA_ROOT = '/static/'
+
+LOCALE_PATHS = (
+    os.path.dirname(__file__),
 )
